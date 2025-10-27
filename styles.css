@@ -1,2 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+}
 
-/* Your CSS Code here. */
+/* Movie Container */
+.movie-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Movie Poster */
+.moviePic {
+  height: 400px;
+  width: 270px;
+  opacity: 0.9;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.moviePic:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+/* Movie Description */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ddd;
+}
